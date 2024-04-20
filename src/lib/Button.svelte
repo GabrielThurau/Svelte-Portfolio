@@ -1,9 +1,11 @@
 <script>
-  export let size = "small";
+  export let size = "large";
   export let shadow = false;
 </script>
 
-<button class="size-sm"><slot>Fallback Text</slot></button>
+<button class={size === "small" ? "size-sm" : "size-lg"}
+  ><slot>Fallback Text</slot></button
+>
 
 <style lang="scss">
   button {

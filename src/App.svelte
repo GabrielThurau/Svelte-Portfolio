@@ -2,4 +2,4 @@
   import Button from "./lib/Button.svelte";
 </script>
 
-<Button>Button Text</Button>
+<Button size="large">Button Text</Button>
