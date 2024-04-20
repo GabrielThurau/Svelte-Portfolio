@@ -4,7 +4,7 @@
 </script>
 
 <button class={size === "small" ? "size-sm" : "size-lg"}
-  ><slot>Fallback Text</slot></button
+  ><slot name="btn-text">Fallback Text</slot></button
 >
 
 <style lang="scss">
