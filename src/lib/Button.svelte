@@ -14,6 +14,7 @@
     }
     &.size-lg {
       padding: 1rem 2rem;
+      font-size: 20px;
     }
   }
 </style>
