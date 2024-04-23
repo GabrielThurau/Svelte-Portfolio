@@ -1,5 +1,6 @@
 <!-- Container.svelte -->
 <div>
+  <slot />
   {#if $$slots.header}
     <slot name="header" />
   {/if}
